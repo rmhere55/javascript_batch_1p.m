@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+	<title>
+		HTML DOM Form submit() Method
+	</title>
+</head>
+
+<body style="text-align:center;"> 
+
+	
+	
+	<!-- HTML code to create form -->
+	<h2>DOM Form submit() Method</h2>
+	
+	<form id="form" action="">
+		<label for="username">Username:</label> 
+		<input type="text" name="username" id="Username">
+		
+		<br>
+		
+		<label for="password">Password:</label> 
+		<input type="password" name="password" id ="password">
+		
+		<br><br>
+		<input type="button" onclick="form()" value="Submit form">
+	</form>
+
+	<!-- script to use submit() method -->
+	<script>
+		function form() {
+			document.getElementById("form").submit();
+		}
+	</script>
+</body>
+
+</html>

@@ -12,9 +12,11 @@ const story = document.body.querySelector(".story");
 
   const htage = document.querySelector('h1')
   // const p = document.querySelectorAll('p')
-  // console.log(p)
+  
 
   console.log(htage)
+
+
 const setText = document.body.querySelector("#set-text");
 // ye line hum textarea ke id ko access krne ke liya use kr rhai hai 
 
